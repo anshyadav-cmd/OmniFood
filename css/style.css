@@ -58,6 +58,29 @@ html {
 /* General Reuseable Component   */
 /* ******************************* */
 
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
@@ -223,4 +246,11 @@ html {
 .delivered-text {
   font-size: 1.8rem;
   font-weight: 600;
+}
+
+/* ******************************* */
+/* How it works Section */
+/* ******************************* */
+
+.section-how {
 }
