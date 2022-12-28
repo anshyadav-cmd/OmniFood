@@ -6,10 +6,14 @@
 
 - Font Weight:
   Default: 400
+  Medium: 500 
+  Semi-Bold: 600
+  Bold: 700 
 
 - Line heights
   Default: 1 
-
+  Small: 1.05
+  Paragraph Default: 1.6
 --- 02 COLORS
 
 - Primary : #e67e22
@@ -20,7 +24,8 @@
   #555 
   #333
 
---- 05 SHADOWS
+--- 05 SHADOWS  
+    default: 9px
 
 --- 06 BORDER RADIUS
 
@@ -117,6 +122,47 @@ html {
 
 .logo {
   height: 2.2rem;
+}
+
+/* ******************************* */
+/* Navigation  */
+/* ******************************* */
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+}
+
+.main-nav-link:visited,
+.main-nav-link:link {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+
+  /* Animate the change from original to specfic value 
+    In this case link&visited to hover&active */
+  transition: all 0.25s;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
 }
 /* ******************************* */
 /* Hero Section */
