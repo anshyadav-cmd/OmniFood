@@ -25,6 +25,7 @@
 - Tints: 
     #fdf2e9
     #fae5d3
+    #eb984e
 - Shads: #cf711f
 - Accents:
 - Grey: 
@@ -33,7 +34,7 @@
   #333
 
 --- 05 SHADOWS  
-
+  0px 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
 --- 06 BORDER RADIUS
     default: 9px
