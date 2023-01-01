@@ -62,10 +62,12 @@ body {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 html {
   /* changing 1 rem = 16px  to 1 rem = 10px  */
+  overflow-x: hidden;
   font-size: 62.5%;
 }
 
