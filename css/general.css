@@ -69,7 +69,7 @@ html {
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.7);
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 /* ******************************* */
 /* General Reuseable Component   */
@@ -103,6 +103,10 @@ html {
 
 .grid--4-col {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-col {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--centre-v {
