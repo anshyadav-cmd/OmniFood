@@ -14,6 +14,7 @@
   Default: 1 
   Small: 1.05
   Medium: 1.2
+  large: 1.8
   Paragraph Default: 1.6
 
 - Letter spacing
@@ -34,7 +35,8 @@
   #6f6f6f (LIGHTEST GRAY ALLOWED ON #fdf2e9)
   #555 
   #333
-
+  #888
+  #767676
 --- 05 SHADOWS  
   0px 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
