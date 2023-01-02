@@ -123,6 +123,7 @@
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
+    z-index: 10000;
   }
 
   .main-nav {
@@ -139,7 +140,7 @@
 
     transform: translateX(100%);
 
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out, opacity 1ms;
 
     /* hide navgiation */
     /* allows no transitin at all  */
