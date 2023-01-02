@@ -69,6 +69,8 @@ html {
   /* changing 1 rem = 16px  to 1 rem = 10px  */
   overflow-x: hidden;
   font-size: 62.5%;
+  /* doesn't work on safari */
+  /* scroll-behavior: smooth; */
 }
 
 *:focus {
