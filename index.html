@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>OmniFood &mdash; Never cook again!</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
@@ -8,10 +9,9 @@
     <meta
       name="description"
       content="0mnifood is an AI-powered food
-    subscription eas Vem OTL Velt he Tt Ng again, 365 days per year. It's
-    tailored to your Tete Me tastes and nutritional needs."
+    subscription, 365 days per year. It's tailored to your tastes and nutritional needs."
     />
-    <title>OmniFood &mdash; Never cook again!</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,6 +21,11 @@
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/general.css" rel="stylesheet" />
     <link href="css/queries.css" rel="stylesheet" />
+
+    <link rel="icon" href="img/favicon-desktop.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+
+    <link rel="manifest" href="manifest.webmanifest" />
 
     <script
       type="module"
@@ -93,11 +98,15 @@
             </div>
           </div>
           <div class="hero-img-box">
-            <img
-              src="img/hero.png"
-              class="hero-img"
-              alt="women enjoying food, meals in storage containers, and food blows on a table"
-            />
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp" />
+              <source srcset="img/hero-min.avif" type="image/avif" />
+              <img
+                src="img/hero.png"
+                class="hero-img"
+                alt="women enjoying food, meals in storage containers, and food blows on a table"
+              />
+            </picture>
           </div>
         </div>
       </section>
